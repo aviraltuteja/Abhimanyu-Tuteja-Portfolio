@@ -2,10 +2,10 @@ export function HeroActions() {
   return (
     <div className="flex flex-wrap gap-3">
       <a
-        href="#journey"
+        href="#approach"
         className="rounded-xl bg-text-primary px-7 py-3 text-base font-semibold text-white transition hover:opacity-90"
       >
-        View My Journey
+        See How I Teach
       </a>
       <a
         href="#contact"

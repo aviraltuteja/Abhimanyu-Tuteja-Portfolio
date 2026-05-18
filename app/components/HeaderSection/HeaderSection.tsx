@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BrandMark } from "./components/BrandMark";
 import { PrimaryNav } from "./components/PrimaryNav";
 
@@ -8,12 +9,12 @@ export function HeaderSection() {
         <BrandMark />
         <div className="flex items-center gap-8">
           <PrimaryNav />
-          <a
-            href="#contact"
+          <Link
+            href="/#contact"
             className="hidden rounded-xl bg-brand-primary px-5 py-2 text-sm font-semibold text-white transition hover:bg-brand-primary-hover sm:inline-flex"
           >
             Get in Touch
-          </a>
+          </Link>
         </div>
       </div>
     </header>

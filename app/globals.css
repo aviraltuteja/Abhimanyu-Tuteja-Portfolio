@@ -34,6 +34,11 @@ body {
   background: var(--surface-page);
   color: var(--text-primary);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  position: relative;
 }
 
 @keyframes heroGradientShift {
