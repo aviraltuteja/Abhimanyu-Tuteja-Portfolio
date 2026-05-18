@@ -1,13 +1,16 @@
+import Link from "next/link";
+
 type NavItem = {
   label: string;
   href: string;
 };
 
 const NAV_ITEMS: NavItem[] = [
-  { label: "Home", href: "#" },
-  { label: "Journey", href: "#journey" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Blogs", href: "#blogs" },
+  { label: "Home", href: "/" },
+  { label: "Method", href: "/#approach" },
+  { label: "Outcomes", href: "/#outcomes" },
+  { label: "Gallery", href: "/photo-gallery" },
+  { label: "Start", href: "/#start" },
 ];
 
 export function PrimaryNav() {
@@ -16,12 +19,12 @@ export function PrimaryNav() {
       <ul className="flex items-center gap-7">
         {NAV_ITEMS.map((item) => (
           <li key={item.label}>
-            <a
+            <Link
               href={item.href}
               className="text-sm font-medium text-text-secondary transition hover:text-text-primary"
             >
               {item.label}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
