@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type StartStep = {
   title: string;
   description: string;
@@ -38,11 +40,11 @@ export function StartPlanSection() {
               coaching instead of a rotating tutor or a one-size-fits-all
               worksheet plan.
             </p>
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="inline-flex rounded-xl bg-brand-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-primary-hover">
               Discuss coaching fit
-            </a>
+            </Link>
           </div>
 
           <div className="grid gap-4">

@@ -10,10 +10,10 @@ export function HeaderSection() {
         <div className="flex items-center gap-8">
           <PrimaryNav />
           <Link
-            href="/#contact"
+            href="/contact"
             className="hidden rounded-xl bg-brand-primary px-5 py-2 text-sm font-semibold text-white transition hover:bg-brand-primary-hover sm:inline-flex"
           >
-            Get in Touch
+            Schedule Consultation
           </Link>
         </div>
       </div>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function PhotoGalleryPage() {
   return (
     <div className="flex flex-col gap-10">
-      <section className="rounded-[2rem] bg-panel px-5 py-8 shadow-sm ring-1 ring-border-soft sm:px-8 sm:py-10">
+      <section className="rounded-4xl bg-panel px-5 py-8 shadow-sm ring-1 ring-border-soft sm:px-8 sm:py-10">
         <p className="text-sm font-semibold uppercase tracking-[0.25em] text-brand-primary">
           Photo Gallery
         </p>
@@ -49,7 +49,7 @@ export default function PhotoGalleryPage() {
               >
                 <PhotoPlaceholder
                   photo={photo}
-                  className="aspect-[4/3] shadow-lg shadow-slate-200/80 transition duration-300 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:shadow-slate-300/70"
+                  className="aspect-4/3 shadow-lg shadow-slate-200/80 transition duration-300 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:shadow-slate-300/70"
                 />
               </Link>
             ))}

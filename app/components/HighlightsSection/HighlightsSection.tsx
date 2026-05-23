@@ -9,25 +9,22 @@ type Highlight = {
 
 const HIGHLIGHTS: Highlight[] = [
   {
-    title: "Teaching Method",
-    description:
-      "A diagnostic, concept-first approach that rebuilds confidence before chasing marks.",
-    actionLabel: "See Method",
-    href: "#approach",
+    title: "My Journey",
+    description: "Tracing the path from local classroom to enterprise leadership.",
+    actionLabel: "Explore Path",
+    href: "/journey",
   },
   {
-    title: "Student Outcomes",
-    description:
-      "Experience, exam breadth, and the practical gains families notice beyond report cards.",
-    actionLabel: "View Outcomes",
-    href: "#outcomes",
+    title: "Visual Gallery",
+    description: "A curated collection of community projects and milestones.",
+    actionLabel: "View Gallery",
+    href: "/photo-gallery",
   },
   {
-    title: "Coaching Fit",
-    description:
-      "A simple starting path for families who want structure, honesty, and consistency.",
-    actionLabel: "Start Here",
-    href: "#start",
+    title: "Insights & Blogs",
+    description: "Reflections on pedagogy, ethics, and modern business.",
+    actionLabel: "Read Blogs",
+    href: "/blogs",
   },
 ];
 
