@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function HeroActions() {
   return (
     <div className="flex flex-wrap gap-3">
@@ -7,12 +9,12 @@ export function HeroActions() {
       >
         See How I Teach
       </a>
-      <a
-        href="#contact"
+      <Link
+        href="/contact"
         className="rounded-xl border border-border-soft bg-panel px-7 py-3 text-base font-semibold text-text-primary transition hover:border-brand-primary hover:text-brand-primary"
       >
         Partner With Me
-      </a>
+      </Link>
     </div>
   );
 }

@@ -13,7 +13,8 @@ const OUTCOME_METRICS: OutcomeMetric[] = [
   {
     value: "5k+",
     label: "Students mentored",
-    detail: "Across school boards, competitive exams, and international tracks.",
+    detail:
+      "Across school boards, competitive exams, and international tracks.",
   },
   {
     value: "30+",
@@ -72,25 +73,7 @@ export function OutcomesSection() {
             </a>
           </div>
 
-          <div className="grid gap-4">
-            <div className="grid gap-4 sm:grid-cols-3">
-              {OUTCOME_METRICS.map((metric) => (
-                <article
-                  key={metric.label}
-                  className="rounded-2xl border border-white/10 bg-white/8 p-5">
-                  <p className="text-4xl font-semibold tracking-tight text-cyan-200">
-                    {metric.value}
-                  </p>
-                  <h3 className="mt-3 text-base font-semibold">
-                    {metric.label}
-                  </h3>
-                  <p className="mt-2 text-sm leading-6 text-white/65">
-                    {metric.detail}
-                  </p>
-                </article>
-              ))}
-            </div>
-
+          <div>
             <div className="grid gap-3">
               {OUTCOME_SIGNALS.map((signal) => (
                 <article

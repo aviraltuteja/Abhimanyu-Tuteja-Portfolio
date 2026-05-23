@@ -11,9 +11,9 @@ export default function LandingPage() {
       <HeroSection />
       <HighlightsSection />
       <ApproachSection />
-      <OutcomesSection />
-      <StartPlanSection />
       <TestimonialsSection />
+      <StartPlanSection />
+      <OutcomesSection />
     </div>
   );
 }
